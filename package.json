@@ -1,0 +1,14 @@
+{
+  "name": "node-graphql-api",
+  "version": "1.0.0",
+  "description": "A simple graph ql api",
+  "main": "index.mjs",
+  "author": "Viet Tran",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "colors": "^1.4.0",
+    "graphql": "^16.6.0",
+    "nodemon": "^2.0.22"
+  }
+}

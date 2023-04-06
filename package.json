@@ -5,6 +5,9 @@
   "main": "index.mjs",
   "author": "Viet Tran",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./index.mjs"
+  },
   "dependencies": {
     "apollo-server": "^3.12.0",
     "colors": "^1.4.0",

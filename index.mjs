@@ -11,5 +11,7 @@ const server = new ApolloServer({
 });
 
 server.listen({ port: API_PORT || 4000 }).then(({ url }) => {
-  console.log(first);
+  console.log("Server is ready at: ".green, `${url}`.yellow);
+}).catch(error => {
+  console.log(error);
 });

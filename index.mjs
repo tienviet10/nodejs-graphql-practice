@@ -10,4 +10,6 @@ const server = new ApolloServer({
   resolvers
 });
 
-server.listen({ port: API_PORT || 4000 });
+server.listen({ port: API_PORT || 4000 }).then(({ url }) => {
+  console.log(first);
+});
